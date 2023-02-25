@@ -1,5 +1,6 @@
 /*Bitwise Operators - A bitwise operator is used to perform operations at the bit level. To obtain the results, they convert our input values into binary format and then process them using whatever operator they are being used with. */
 
+
 #include<iostream>
 using namespace std;
 int main()
@@ -14,9 +15,9 @@ int main()
     cout<<"The value of a&b = "<<(a&b)<<endl;
     cout<<"The value of a|b = "<<(a|b)<<endl;
     cout<<"The value of !a = "<<(!a)<<endl;
-    cout<<"The value of a>>2 = "<<(a>>b)<<endl;
-    cout<<"The value of a>>2 = "<<(a<<b)<<endl;
-    cout<<"The value of a|b = "<<(~a)<<endl;
+    cout<<"The value of a>>2 = "<<(a >> 2)<<endl;
+    cout<<"The value of a<<2 = "<<(a << 2)<<endl;
+    cout<<"The value of ~a = "<<(~a)<<endl;
     cout<<"The value of !a = "<<(a^b)<<endl;
 
     return 0;
