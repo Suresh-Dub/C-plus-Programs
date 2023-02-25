@@ -14,7 +14,8 @@ int main()
     cout<<"The value of a&b = "<<(a&b)<<endl;
     cout<<"The value of a|b = "<<(a|b)<<endl;
     cout<<"The value of !a = "<<(!a)<<endl;
-    cout<<"The value of a&b = "<<(a>>b)<<endl;
+    cout<<"The value of a>>2 = "<<(a>>b)<<endl;
+    cout<<"The value of a>>2 = "<<(a<<b)<<endl;
     cout<<"The value of a|b = "<<(~a)<<endl;
     cout<<"The value of !a = "<<(a^b)<<endl;
 
@@ -24,3 +25,6 @@ int main()
 //Shift Right Operator >>
 //Shift Left Operator <<
 //Bitwise Complement ~
+//Bitwise OR |
+//Bitwise XOR ^
+//Bitwise AND &&
